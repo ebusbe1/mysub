@@ -44,7 +44,7 @@ export const main = Reach.App(() => {
   const [random_num] =
     parallelReduce([0])
       .invariant(balance(Tokenid) == 0)
-      .while(random_num < maxnum)
+      .while(random_num < 5)
       .api(
         Bobs.enterticket,
         (enterticket, notify) => {
