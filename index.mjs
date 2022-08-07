@@ -53,8 +53,8 @@ await Promise.all([
       console.log(`hash value: ${hash}`)
     },
     maxnum: async () => {
-      console.log(`Only ${5} people can enter raffle numbmer`)
-      return parseInt(5)
+      console.log(`The highest ticket number is 30`)
+      return parseInt(30)
     },
     Api_addresses: async () => {
       return address_list
